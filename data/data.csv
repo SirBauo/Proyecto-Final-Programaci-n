@@ -1,0 +1,16 @@
+id,nombre,edad,ciudad,salario
+1,Ana,29,San Jose,55000
+2,Carlos,35,Alajuela,62000
+3,María,,"Cartago",58000
+4,Pedro,41,San Jose,71000
+5,Sofia,23,Heredia,48000
+6,Daniel,30,San Jose,
+7,Ana,29,Heredia,55000
+8,Camila,26,Alajuela,52000
+9,Lucas,,San Jose,60000
+10,Pedro,41,Cartago,71000
+11,María,33,Heredia,58000
+12,Camila,26,San Jose,52000
+13,Daniel,30,Alajuela,59000
+14,Ana,,Heredia,
+15,Pedro,50,San Jose,80000
