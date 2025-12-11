@@ -25,6 +25,7 @@ proyecto final/
 
 │ utils.py
 │
+
 └── data/
 
       data.csv
