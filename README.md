@@ -4,31 +4,6 @@ Este proyecto implementa un sistema modular en Python que permite cargar, consul
 
 El enfoque principal es aplicar Programación Orientada a Objetos (POO) y modularidad, utilizando únicamente librerías nativas de Python.
 
-
-**Estructura**
-
-proyecto final/
-
-│ main.py
-
-│ data_loader.py
-
-│ data_query.py
-
-│ data_analyzer.py
-
-│ data_cleaner.py
-
-│ data_reporter.py
-
-│ logger_ops.py
-
-│ utils.py
-│
-
-└── data/
-
-      data.csv
 ------------------------------------------------------------
 
 **El programa permite:**
