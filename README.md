@@ -127,16 +127,16 @@ is_number() → detecta si un valor es numérico
 
 **Puntos cumplidos en el proyecto**
 
-✔ Modularidad y separación por capas
+-Modularidad y separación por capas
 
-✔ Programación Orientada a Objetos
+-Programación Orientada a Objetos
 
-✔ Flujo básico de análisis de datos
+-Flujo básico de análisis de datos
 
-✔ Menú por consola
+-Menú por consola
 
-✔ Reportes generados a archivos (JSON y TXT)
+-Reportes generados a archivos (JSON y TXT)
 
-✔ Bitácora persistente de operaciones
+-Bitácora persistente de operaciones
 
-✔ Uso exclusivo de librerías nativas
+-Uso exclusivo de librerías nativas
