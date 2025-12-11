@@ -6,18 +6,28 @@ El enfoque principal es aplicar Programación Orientada a Objetos (POO) y modula
 
 
 **Estructura**
+
 proyecto final/
+
 │ main.py
+
 │ data_loader.py
+
 │ data_query.py
+
 │ data_analyzer.py
+
 │ data_cleaner.py
+
 │ data_reporter.py
+
 │ logger_ops.py
+
 │ utils.py
 │
 └── data/
-      ejemplo.csv
+
+      data.csv
 ------------------------------------------------------------
 
 **El programa permite:**
@@ -46,10 +56,7 @@ Asegúrate de tener Python 3 instalado.
 
 Ubícate en la carpeta del proyecto.
 
-Ejecuta:
-
-python main.py
-
+Ejecuta: python main.py
 
 Aparecerá el menú principal con las opciones:
 
@@ -78,31 +85,31 @@ Convierte el contenido en una lista de diccionarios (DictReader)
 
 Permite:
 
-Listar columnas
+      Listar columnas
 
-Listar columnas con su tipo (numérico/alfanumérico)
+      Listar columnas con su tipo (numérico/alfanumérico)
 
-Listar valores distintos de una columna
+      Listar valores distintos de una columna
 
-Exportar valores únicos a .txt
+      Exportar valores únicos a .txt
 
-Buscar por rango (numérico) o coincidencia de texto
+      Buscar por rango (numérico) o coincidencia de texto
 
 **data_analyzer.py**
 
 Realiza análisis estadístico básico:
 
-Máximo
+      Máximo
 
-Mínimo
+      Mínimo
 
-Promedio
+      Promedio
 
-Varianza
+      Varianza
 
-Desviación estándar
+      Desviación estándar
 
-Solo para columnas numéricas.
+      Solo para columnas numéricas.
 
 **data_cleaner.py**
 
@@ -145,9 +152,15 @@ is_number() → detecta si un valor es numérico
 **Puntos cumplidos en el proyecto**
 
 ✔ Modularidad y separación por capas
+
 ✔ Programación Orientada a Objetos
+
 ✔ Flujo básico de análisis de datos
+
 ✔ Menú por consola
+
 ✔ Reportes generados a archivos (JSON y TXT)
+
 ✔ Bitácora persistente de operaciones
+
 ✔ Uso exclusivo de librerías nativas
