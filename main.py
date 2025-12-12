@@ -61,7 +61,7 @@ def main():
         elif opcion == 6:
             logger.show_all()
 
-    print("Saliendo...")
+    print("Adieu")
 
 
 if __name__ == "__main__":

@@ -4,7 +4,7 @@ from utils import is_number
 class DataReporter:
 
     def __init__(self, data, logger):
-        # Guardamos el dataset y el logger para registrar la operación
+        # Se guarda dataset y el logger para registrar la operación
         self.data = data
         self.logger = logger
 
@@ -19,7 +19,7 @@ class DataReporter:
             "columnas_con_vacios": []    # Columnas que contienen al menos un valor vacío
         }
 
-        # --- Analizamos cada columna del dataset ---
+        # --- aqui analizamos cada columna del dataset ---
         for col in cols:
 
             # Obtenemos una muestra no vacía para determinar el tipo de dato
@@ -39,7 +39,7 @@ class DataReporter:
             if any(row[col] == "" for row in self.data):
                 reporte["columnas_con_vacios"].append(col)
 
-        # --- Guardamos el reporte final en formato JSON ---
+        # --- Guardamos el reporte final en JSON ---
         with open("reporte.json", "w", encoding="utf-8") as f:
             json.dump(reporte, f, indent=4)   # indent = 4 → formato legible
 
